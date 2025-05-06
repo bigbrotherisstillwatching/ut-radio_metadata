@@ -46,7 +46,7 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
          }
       
-         Image {
+/*         Image {
             id: image2
             sourceSize.width: 1080
             sourceSize.height: 2340
@@ -54,7 +54,7 @@ Rectangle {
             height: 1755
             width: 810
             anchors.horizontalCenter: column1.horizontalCenter
-         }
+         }*/
       
          Text {
             id: text1
