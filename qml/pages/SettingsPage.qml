@@ -5,7 +5,7 @@ import QtQuick.Layouts 1.3
 import QtMultimedia 5.12
 import Qt.labs.settings 1.0
 import QtQuick.Controls 2.7 as Qqc
-import Process 1.0
+//import Process 1.0
 
 import "../net"
 import "../util"
@@ -20,22 +20,22 @@ Rectangle {
 
     property var padding: units.gu(1)
 
-    Process {
+/*    Process {
       id: process
-    }
+    }*/
 
-    Process {
+/*    Process {
       id: process2
-    }
+    }*/
 
-    Process {
+/*    Process {
       id: process3
-    }
+    }*/
 
     Settings {
        id: settings
        property bool darkMode: true
-       property string equalizerControls1: ""
+/*       property string equalizerControls1: ""
        property string equalizerControls2: ""
        property string equalizerControls3: ""
        property string equalizerControls4: ""
@@ -45,7 +45,7 @@ Rectangle {
        property string equalizerControls8: ""
        property string equalizerControls9: ""
        property string equalizerControls10: ""
-       property string equalizerStatus: ""
+       property string equalizerStatus: ""*/
     }
 
     ThemedHeader {
@@ -115,7 +115,7 @@ Rectangle {
                   }
               }
           }
-          ListItem {
+/*          ListItem {
              height: l3.height + (divider.visible ? divider.height : 0)
              color: Colors.surfaceColor
              divider.colorFrom: Colors.borderColor
@@ -138,8 +138,8 @@ Rectangle {
                    radius: units.gu(1)
                 }
              }
-          }
-          Row {
+          }*/
+/*          Row {
              anchors.horizontalCenter: parent.horizontalCenter
              spacing: 1
              Column {
@@ -392,8 +392,8 @@ Rectangle {
                    font.pointSize: 20
                 }
              }
-          }
-          Row {
+          }*/
+/*          Row {
              anchors.horizontalCenter: parent.horizontalCenter
              spacing: settingsPage.padding
              Button {
@@ -411,7 +411,7 @@ Rectangle {
                    settings.equalizerControls8 = slide8.value.toFixed(1)
                    settings.equalizerControls9 = slide9.value.toFixed(1)
                    settings.equalizerControls10 = slide10.value.toFixed(1)
-                   process.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer.sh"])
+                   .start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer.sh"])
                    text1.visible = true
                    settings.equalizerStatus = "green"
                    statusrec1.color = "green"
@@ -422,7 +422,7 @@ Rectangle {
                 text: i18n.tr("Off")
                 color: Colors.surfaceColor
                 onClicked: {
-                   process2.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer_stop.sh"])
+                   2.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer_stop.sh"])
                    text1.visible = false
                    settings.equalizerStatus = "red"
                    statusrec1.color = "red"
@@ -443,7 +443,7 @@ Rectangle {
                    settings.equalizerControls8 = slide8.value.toFixed(1)
                    settings.equalizerControls9 = slide9.value.toFixed(1)
                    settings.equalizerControls10 = slide10.value.toFixed(1)
-                   process3.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer_change.sh"])
+                   3.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.7/script/equalizer_change.sh"])
                 }
              }
              Button {
@@ -473,8 +473,8 @@ Rectangle {
                    settings.equalizerControls10 = slide10.value.toFixed(1)
                 }
              }
-          }
-          Text {
+          }*/
+/*          Text {
              id: text1
              text: i18n.tr("Please turn off equalizer <u>before</u> changing audio output, closing the app or rebooting the phone!")
              color: "red"
@@ -487,7 +487,7 @@ Rectangle {
              visible: false
              leftPadding: units.gu(3)
              rightPadding: units.gu(3)
-          }
+          }*/
        }
     }
 }
