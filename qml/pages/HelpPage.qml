@@ -64,7 +64,8 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
             topPadding: units.gu(3)
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -76,7 +77,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -88,7 +90,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -100,7 +103,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -112,7 +116,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -124,7 +129,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
@@ -160,7 +166,8 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignHCenter
             font.bold: true
@@ -175,7 +182,8 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
             bottomPadding: units.gu(3)
             wrapMode: Text.WordWrap
-            width: image2.width
+//            width: image2.width
+            width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignHCenter
             font.bold: true
