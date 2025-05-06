@@ -25,7 +25,10 @@ Rectangle {
 
    color: Colors.backgroundColor
 
-   Component.onCompleted: init()
+   Component.onCompleted: {
+      init()
+      process2.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.8/script/remove_old_files.sh"])
+   }
 
    ListModel {
       id: favouriteModel
@@ -72,6 +75,10 @@ Rectangle {
       onFinished: {
          txt.text = readAll();
       }
+   }
+
+   Process {
+      id: process2
    }
 
    MediaPlayer {
