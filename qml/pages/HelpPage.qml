@@ -129,7 +129,7 @@ Rectangle {
             horizontalAlignment: Text.AlignLeft
          }
 
-         Text {
+/*         Text {
             id: text7
             text: i18n.tr("<font color=\"#FF0000\"><b>[7]</b></font> Change equalizer settings when it's already activated.")
             font.pointSize: 25
@@ -139,9 +139,9 @@ Rectangle {
             width: image2.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
-         }
+         }*/
 
-         Text {
+/*         Text {
             id: text8
             text: i18n.tr("<font color=\"#FF0000\"><b>[8]</b></font> Reset all bars to 0.0.")
             font.pointSize: 25
@@ -151,7 +151,7 @@ Rectangle {
             width: image2.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
-         }
+         }*/
 
          Text {
             id: text9
