@@ -8,5 +8,5 @@ if [ ! -f $file ]; then
     sed -i '3,13d' /home/phablet/.config/radio.s710/radio.s710.conf
     rm -f $file2
     rm -f $file3
-    touch /home/phablet/.config/radio.s710/already_migrated
+    touch $file
 fi
