@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the radio.s710 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: radio.s710\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-05 17:48+0000\n"
+"PO-Revision-Date: 2025-05-08 00:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: ../qml/net/Network.qml:25 ../qml/net/Network.qml:30
+#: ../qml/net/Network.qml:75 ../qml/net/Network.qml:94
+msgid "Failed to determine base host"
+msgstr "De hostnaam kan niet worden vastgesteld"
+
+#: ../qml/net/Network.qml:39
+msgid "Base URL unavailable"
+msgstr "De URL is onbereikbaar"
+
+#: ../qml/net/Network.qml:70
+msgid "Failed to parse search results"
+msgstr "De zoekresultaten kunnen niet worden verwerkt"
+
+#: ../qml/net/Network.qml:103 ../qml/net/Network.qml:116
+#: ../qml/pages/SearchPage.qml:21 ../qml/pages/SearchPage.qml:29
+msgid "Language"
+msgstr "Taal"
+
+#: ../qml/net/Network.qml:104 ../qml/pages/SearchPage.qml:19
+msgid "Tag"
+msgstr "Label"
+
+#: ../qml/net/Network.qml:105 ../qml/net/Network.qml:115
+#: ../qml/pages/SearchPage.qml:20 ../qml/pages/SearchPage.qml:28
+msgid "Country"
+msgstr "Land"
+
+#: ../qml/net/Network.qml:106 ../qml/net/Network.qml:120
+#: ../qml/pages/SearchPage.qml:18 ../qml/pages/SearchPage.qml:26
+msgid "Name"
+msgstr "Naam"
+
+#: ../qml/net/Network.qml:114 ../qml/pages/SearchPage.qml:27
+msgid "Tags"
+msgstr "Labels"
+
+#: ../qml/net/Network.qml:117 ../qml/pages/SearchPage.qml:30
+#: ../qml/pages/SearchPage.qml:224
+msgid "Votes"
+msgstr "Aantal stemmen"
+
+#: ../qml/net/Network.qml:118 ../qml/pages/SearchPage.qml:31
+#: ../qml/pages/SearchPage.qml:229
+msgid "Click count"
+msgstr "Aantal keer beluisterd"
+
+#: ../qml/net/Network.qml:119 ../qml/pages/SearchPage.qml:32
+msgid "Random"
+msgstr "Willekeurig"
+
+#: ../qml/pages/MainPage.qml:92
+msgid "Error"
+msgstr "Foutmelding"
+
+#: ../qml/pages/MainPage.qml:116
+msgid "No station"
+msgstr "Geen radiostation"
+
+#: ../qml/pages/MainPage.qml:259 ../qml/pages/HelpPage.qml:20
+msgid "Help"
+msgstr "Hulp"
+
+#: ../qml/pages/MainPage.qml:445 ../qml/util/Functions.qml:40
+#: ../qml/util/Functions.qml:155
+msgid "Favourites"
+msgstr "Favorieten"
+
+#: ../qml/pages/MainPage.qml:284
+msgid "What's playing?"
+msgstr "Momenteel actief?"
+
+#: ../qml/pages/MainPage.qml:334
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../qml/pages/MainPage.qml:364
+msgid "Show name"
+msgstr "Naam weergeven"
+
+#: ../qml/pages/MainPage.qml:370
+msgid "Save name"
+msgstr "Naam opslaan"
+
+#: ../qml/pages/MainPage.qml:376
+msgid "Show stream URL"
+msgstr "Stream-URL weergeven"
+
+#: ../qml/pages/MainPage.qml:382
+msgid "Save stream URL"
+msgstr "Stream-URL opslaan"
+
+#: ../qml/pages/MainPage.qml:388
+msgid "Show image URL"
+msgstr "Afbeelding-URL weergeven"
+
+#: ../qml/pages/MainPage.qml:394
+msgid "Save image URL"
+msgstr "Afbeelding-URL opslaan"
+
+#: ../qml/pages/MainPage.qml:461
+msgid ""
+"Failed to lookup hostname for radio-browser.info. Searching for web streams "
+"might be unavailable. Check internet connection and restart app."
+msgstr ""
+"Je kunt niet zoeken naar streams omdat de hostnaam van radio-browser.info "
+"niet kan worden vastgesteld. Controleer je internetverbinding en herstart de "
+"app."
+
+#: ../qml/pages/MainPage.qml:461 ../qml/pages/SearchPage.qml:171
+msgid "Radio Browser"
+msgstr "Radiostations"
+
+#: ../qml/pages/MainPage.qml:506 ../qml/pages/MainPage.qml:575
+msgid "Playing"
+msgstr "Aan het afspelen"
+
+#: ../qml/pages/MainPage.qml:506
+msgid "Web stream"
+msgstr "Internetradio"
+
+#: ../qml/pages/MainPage.qml:518
+msgid "Connection broken, trying to reconnect ..."
+msgstr "De verbinding is verbroken - bezig met herstellen ..."
+
+#: ../qml/pages/MainPage.qml:518
+msgid "Reconnecting"
+msgstr "Bezig met verbinden ..."
+
+#: ../qml/pages/MainPage.qml:576
+msgid "Stopped"
+msgstr "Niet aan het afspelen"
+
+#: ../qml/pages/MainPage.qml:577
+msgid "Paused"
+msgstr "Onderbroken"
+
+#: ../qml/pages/MainPage.qml:583
+msgid "NoMedia"
+msgstr "Geen media"
+
+#: ../qml/pages/MainPage.qml:584
+msgid "Loading"
+msgstr "Bezig met laden ..."
+
+#: ../qml/pages/MainPage.qml:586
+msgid "Buffering"
+msgstr "Bezig met bufferen ..."
+
+#: ../qml/pages/MainPage.qml:587
+msgid "Stalled"
+msgstr "Vastgelopen"
+
+#: ../qml/pages/MainPage.qml:588
+msgid "Buffered"
+msgstr "Gebufferd"
+
+#: ../qml/pages/MainPage.qml:589
+msgid "End of media"
+msgstr "Het einde is bereikt"
+
+#: ../qml/pages/MainPage.qml:590
+msgid "Invalid media"
+msgstr "Ongeldige media"
+
+#: ../qml/pages/MainPage.qml:591
+msgid "Unknown status"
+msgstr "Onbekende status"
+
+#: ../qml/pages/SearchPage.qml:41 ../qml/pages/SearchPage.qml:158
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../qml/pages/SearchPage.qml:77
+msgid "Search by:"
+msgstr "Zoeken op:"
+
+#: ../qml/pages/SearchPage.qml:113
+msgid "Sort by:"
+msgstr "Sorteren op:"
+
+#: ../qml/pages/SearchPage.qml:154
+msgid "Enter search term"
+msgstr "Voer een zoekopdracht in"
+
+#: ../qml/pages/SearchPage.qml:171
+msgid ""
+"Failed to search for stations at radio-browser.info. Check internet "
+"connection."
+msgstr ""
+"radio-browser.info kan niet worden doorzocht - controleer je "
+"internetverbinding."
+
+#: ../qml/pages/SettingsPage.qml:29
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../qml/pages/SettingsPage.qml:56
+msgid "Appearance"
+msgstr "Vormgeving"
+
+#: ../qml/pages/SettingsPage.qml:59
+msgid "Restart the app after changing dark mode option"
+msgstr "Herstart de app om de themawijziging toe te passen"
+
+#: ../qml/pages/SettingsPage.qml:80
+msgid "Dark mode"
+msgstr "Donker thema"
+
+#: ../qml/pages/UrlPage.qml:21
+msgid "Manual stream URL"
+msgstr "Eigen URL"
+
+#: ../qml/pages/UrlPage.qml:56
+msgid "Enter stream URL"
+msgstr "Voer een stream-URL in"
+
+#: ../qml/pages/UrlPage.qml:62
+msgid "URL:"
+msgstr "URL:"
+
+#: ../qml/pages/UrlPage.qml:83
+msgid "Enter stream name"
+msgstr "Geef de stream een naam"
+
+#: ../qml/pages/UrlPage.qml:89
+msgid "Name:"
+msgstr "Naam:"
+
+#: ../qml/pages/UrlPage.qml:111
+msgid "Enter URL to station image/artwork"
+msgstr "Voer de URL in van het radiologo/een afbeelding"
+
+#: ../qml/pages/UrlPage.qml:117
+msgid "Image:"
+msgstr "Afbeelding:"
+
+#: ../qml/pages/UrlPage.qml:138
+msgid "Open stream"
+msgstr "Stream openen"
+
+#: ../qml/util/Functions.qml:40 ../qml/util/Functions.qml:155
+msgid "URL for station has already been added as favourite"
+msgstr "De URL van dit radiostation staat al in je favorieten"
+
+#: ../qml/pages/HelpPage.qml:51
+msgid "<font color=\"#FF0000\"><b>[1]</b></font> Metadata is shown here."
+msgstr ""
+"<font color=\"#FF0000\"><b>[1]</b></font> Metagegevens worden hier "
+"weergegeven."
+
+#: ../qml/pages/HelpPage.qml:64
+msgid "<font color=\"#FF0000\"><b>[2]</b></font> Search stations."
+msgstr "<font color=\"#FF0000\"><b>[2]</b></font> Zoek zenders."
+
+#: ../qml/pages/HelpPage.qml:76
+msgid "<font color=\"#FF0000\"><b>[3]</b></font> Add and remove favourite."
+msgstr ""
+"<font color=\"#FF0000\"><b>[3]</b></font> Favoriet toevoegen en verwijderen."
+
+#: ../qml/pages/HelpPage.qml:88
+msgid "<font color=\"#FF0000\"><b>[4]</b></font> Add station manually."
+msgstr "<font color=\"#FF0000\"><b>[4]</b></font> Zender handmatig toevoegen."
+
+#: ../qml/pages/HelpPage.qml:100
+msgid "<font color=\"#FF0000\"><b>[5]</b></font> Open settings."
+msgstr "<font color=\"#FF0000\"><b>[5]</b></font> Open instellingen."
+
+#: ../qml/pages/HelpPage.qml:112
+msgid ""
+"<font color=\"#FF0000\"><b>[6]</b></font> Play stations by clicking on them "
+"here. You can remove a station after swiping it to the right. When swiping "
+"it to the left, you have different options. When clicking 'Show name', 'Show "
+"stream URL' or 'Show image URL', name, stream URL or image URL are shown "
+"under <font color=\"#FF0000\"><b>[1]</b></font>. You can edit them there by "
+"clicking on the text. Change them to what you want and save them by swiping "
+"to the right at <font color=\"#FF0000\"><b>[6]</b></font> and then save it "
+"with 'Save name', 'Save stream URL' or 'Save image URL'. Sort mode gets "
+"(de)activated by long-pressing on a favourite. Change their order by "
+"clicking the four squares on the right, drag them and drop them where you "
+"want."
+msgstr ""
+"<font color=\"#FF0000\"><b>[6]</b></font> Speel stations af door er hier op "
+"te klikken. U kunt een zender verwijderen door deze naar rechts te vegen. "
+"Wanneer u naar links veegt, heeft u verschillende opties. Wanneer u op 'Toon "
+"naam', 'Toon stream-URL' of 'Toon afbeeldings-URL' klikt, worden de naam, "
+"stream-URL of afbeeldings-URL weergegeven onder <font "
+"color=\"#FF0000\"><b>[1]</b></font>. U kunt ze daar bewerken door op de "
+"tekst te klikken. Wijzig ze naar wat je wilt en sla ze op door bij <font "
+"color=\"#FF0000\"><b>[6]</b></font> naar rechts te swipen en vervolgens op "
+"te slaan met 'Naam opslaan', 'Stream-URL opslaan' of 'Afbeeldings-URL "
+"opslaan'. De sorteermodus wordt (gede)activeerd door lang op een favoriet te "
+"drukken. Verander hun volgorde door op de vier vierkanten aan de rechterkant "
+"te klikken, ze te slepen en neer te zetten waar je maar wilt."
+
+#: ../qml/pages/HelpPage.qml:124
+msgid ""
+"Thanks to <a href=\"https://github.com/patrickjane\">Patrick Fial</a> for "
+"this wonderful app. It's published under the MIT License. Copyright (C) "
+"2021-2022 Patrick Fial"
+msgstr ""
+"Met dank aan <a href=\"https://github.com/patrickjane\">Patrick Fial</a> "
+"voor deze geweldige app. Het wordt gepubliceerd onder de MIT-licentie. "
+"Copyright (C) 2021-2022 Patrick Fial"
