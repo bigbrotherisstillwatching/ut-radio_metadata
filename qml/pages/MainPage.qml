@@ -27,7 +27,7 @@ Rectangle {
 
    Component.onCompleted: {
       init()
-      process2.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.8/script/remove_old_files.sh"])
+      process2.start("/bin/bash",["-c", "/opt/click.ubuntu.com/radio.s710/1.4.8/script/migrate_to_new_version.sh"])
    }
 
    ListModel {
