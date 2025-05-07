@@ -23,9 +23,6 @@ Copyright (C) 2021-2022 Patrick Fial
 
 Licensed under the MIT license
 
-The caps plugin for the equalizer is published under the GNU Public License (version 3) by Tim Goetze. More information at http://quitte.de/dsp/caps.html.
-
-
 ## Keep in mind that !!!
   
 -it is an unconfined app with full access to the system    
