@@ -46,16 +46,6 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
          }
       
-/*         Image {
-            id: image2
-            sourceSize.width: 1080
-            sourceSize.height: 2340
-            source: "../assets/2.png"
-            height: 1755
-            width: 810
-            anchors.horizontalCenter: column1.horizontalCenter
-         }*/
-      
          Text {
             id: text1
             text: i18n.tr("<font color=\"#FF0000\"><b>[1]</b></font> Metadata is shown here.")
@@ -64,7 +54,6 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
             topPadding: units.gu(3)
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
@@ -77,7 +66,6 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
@@ -90,7 +78,6 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
@@ -103,7 +90,6 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
@@ -116,7 +102,6 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
@@ -129,35 +114,10 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignLeft
          }
-
-/*         Text {
-            id: text7
-            text: i18n.tr("<font color=\"#FF0000\"><b>[7]</b></font> Change equalizer settings when it's already activated.")
-            font.pointSize: 25
-            color: Colors.mainText
-            anchors.horizontalCenter: column1.horizontalCenter
-            wrapMode: Text.WordWrap
-            width: image2.width
-            lineHeight: 1.2
-            horizontalAlignment: Text.AlignLeft
-         }*/
-
-/*         Text {
-            id: text8
-            text: i18n.tr("<font color=\"#FF0000\"><b>[8]</b></font> Reset all bars to 0.0.")
-            font.pointSize: 25
-            color: Colors.mainText
-            anchors.horizontalCenter: column1.horizontalCenter
-            wrapMode: Text.WordWrap
-            width: image2.width
-            lineHeight: 1.2
-            horizontalAlignment: Text.AlignLeft
-         }*/
 
          Text {
             id: text9
@@ -166,7 +126,6 @@ Rectangle {
             color: Colors.mainText
             anchors.horizontalCenter: column1.horizontalCenter
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignHCenter
@@ -182,7 +141,6 @@ Rectangle {
             anchors.horizontalCenter: column1.horizontalCenter
             bottomPadding: units.gu(3)
             wrapMode: Text.WordWrap
-//            width: image2.width
             width: image1.width
             lineHeight: 1.2
             horizontalAlignment: Text.AlignHCenter
