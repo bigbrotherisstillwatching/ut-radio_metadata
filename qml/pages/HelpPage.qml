@@ -132,21 +132,6 @@ Rectangle {
             font.bold: true
             onLinkActivated: Qt.openUrlExternally(link)
          }
-
-         Text {
-            id: text10
-            text: i18n.tr("The caps plugin for the equalizer is published under the GNU Public License (version 3) by Tim Goetze. More information at <a href=\"http://quitte.de/dsp/caps.html\">quitte.de</a>.")
-            font.pointSize: 25
-            color: Colors.mainText
-            anchors.horizontalCenter: column1.horizontalCenter
-            bottomPadding: units.gu(3)
-            wrapMode: Text.WordWrap
-            width: image1.width
-            lineHeight: 1.2
-            horizontalAlignment: Text.AlignHCenter
-            font.bold: true
-            onLinkActivated: Qt.openUrlExternally(link)
-         }
       }
    }
 }
